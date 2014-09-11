@@ -1,0 +1,25 @@
+Here's a list of helpful/informative links on using and exploring Git.
+
+Feel free to add your own.
+
+Documentation
+-------------
+
+- Pro Git Book
+  http://git-scm.com/book
+
+
+Videos
+------
+
+- Scott Chacon
+  http://www.youtube.com/watch?v=ZDR433b0HJY
+
+
+Software
+--------
+
+- Git Extensions (for Windows)
+  http://sourceforge.net/projects/gitextensions/
+
+
