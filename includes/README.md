@@ -23,5 +23,8 @@ Merge dev into this branch only.
   now merge into test...
 
   git checkout test
+  - make sure test is clean for good measure.
   git merge dev
+
+  voila.. done!
 
