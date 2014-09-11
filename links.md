@@ -10,13 +10,15 @@ Documentation
 -------------
 
 * Pro Git Book
+
   http://git-scm.com/book
 
 
 Videos
 ------
 
-* Scott Chacon
+* Scott Chacon, Intro to Git (more than the basics)
+
   http://www.youtube.com/watch?v=ZDR433b0HJY
 
 
@@ -24,6 +26,7 @@ Software
 --------
 
 * Git Extensions (for Windows)
+
   http://sourceforge.net/projects/gitextensions/
 
 
