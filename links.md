@@ -31,6 +31,7 @@ Software
 
 * Git Extensions (for Windows)
 
+  http://code.google.com/p/gitextensions/
   http://sourceforge.net/projects/gitextensions/
 
 
