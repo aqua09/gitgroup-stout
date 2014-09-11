@@ -23,7 +23,7 @@ Videos
 
 * Scott Chacon, Intro to Git (more than the basics)
 
-  http://www.youtube.com/watch?v=ZDR433b0HJY
+  http://www.youtube.com/watch?v=
 
 
 Software
