@@ -13,6 +13,10 @@ Documentation
 
   http://git-scm.com/book
 
+* Git Reference
+
+  http://gitref.org/
+
 
 Videos
 ------
