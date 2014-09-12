@@ -6,3 +6,6 @@ Rolled to 'test' branch successfully.
 Keeping this in 'test' branch so that 'test' branch can advance along with
 'master' branch.
 
+However, at some point we'll want to roll 'test' into production. The 'master'
+branch will be production.
+
