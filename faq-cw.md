@@ -11,7 +11,7 @@ Not so much a question as an interesting discovery that makes total sense.
   (clay) then I switched to the new branch, git checkout dev
   (dev) the 'dev' branch looks just like my 'clay' branch looked when I created 'dev'
 
-  lesson: git branch newbranch will be based on the currently working on branch.
+  lesson: git branch newbranch will be based on the current branch.
 
   So I deleted the 'dev' branch, git branch -d dev
   then, git checkout master.. which wanted me to commit my changes or stash them, git commit.
@@ -21,8 +21,11 @@ Not so much a question as an interesting discovery that makes total sense.
 Questions
 ---------
 
-Q. If I create a branch on my desktop and never merge it into master then how can I pull that
+Q. If I create a branch on my desktop and never merge it into master then how can I get that
   branch down to my laptop?
 
-A. Not sure.. looking into that.
+A. git fetch branch-name
+  then change to branch-name, git checkout branch-name
+
+
 
