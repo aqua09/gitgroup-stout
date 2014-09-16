@@ -28,4 +28,13 @@ A. git fetch branch-name
   then change to branch-name, git checkout branch-name
 
 
+Q. How do you go back to a previous commit?
+
+A. git revert --hard [sha_of_commit]
+
+
+Q. How do you undo a merge?
+
+A. git revert -m 1 [sha_of_merge]
+
 
