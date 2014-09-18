@@ -5,6 +5,7 @@ Here is a list of helpful/informative links on using and exploring Git.
 
 __Feel free to add your own__.
 
+In dev now.
 
 Documentation
 -------------
