@@ -29,7 +29,7 @@ Videos
 Software
 --------
 
-* Git Extensions (for Windows)
+* Git Extensions (for Windows, not mac)
 
   http://code.google.com/p/gitextensions/
   http://sourceforge.net/projects/gitextensions/
