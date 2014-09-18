@@ -13,3 +13,6 @@ In order to push changes to this repo, either..
 
 Both options make for a good exercise.
 
+NOTES:
+
+- I create a new branch 'breakme' .. this should be interesting!
