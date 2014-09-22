@@ -1,6 +1,0 @@
-This file is being created on the 'dev' branch..
-.. ready to roll into test.
-
-Making more changes in test. Tagging this commit as represent a commit this
-is ready to test.
-
