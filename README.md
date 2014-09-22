@@ -17,3 +17,18 @@ NOTES:
 
 - I create a new branch 'breakme' .. this should be interesting!
   Even though there is now a 'breakme' branch.. feel free to experiment on any branch :)
+
+
+Reading Assignments
+-------------------
+
+
+__Sept 25:__
+ 
+- Please read: Finish Chapter 2, 3.1, and 3.2
+ 
+- Try some commands on github
+
+__Sept 18:__
+ 
+- Please read: Chapter 1, and 2.1, 2.2, and 2.3.
