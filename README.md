@@ -15,7 +15,7 @@ Both options make for a good exercise.
 
 NOTES:
 
-- I create a new branch 'breakme' .. this should be interesting!
+- I created a new branch, 'breakme'. This should be interesting!
   Even though there is now a 'breakme' branch.. feel free to experiment on any branch :)
 
 
