@@ -18,6 +18,9 @@ NOTES:
 - I created a new branch, 'breakme'. This should be interesting!
   Even though there is now a 'breakme' branch.. feel free to experiment on any branch :)
 
+- GUI's can be nice and may integrate well into your workflow. However, I __highly recommend__
+  having a Git Bash shell (Windows) or a Terminal shell (Mac) open to use along with the
+  examples throughout the book.
 
 Reading Assignments
 -------------------
