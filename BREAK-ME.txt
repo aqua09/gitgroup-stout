@@ -5,3 +5,7 @@ This should be fun!
 Git handles basic merge conflicts very well.
 Chapter 3.2 does a good job covering this topic.
 
+Does anyone have an example conflict or workflow they would like to see
+demonstrated? Feel free to make note of it here.
+
+
