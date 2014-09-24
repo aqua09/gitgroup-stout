@@ -1,0 +1,7 @@
+I am a text file.. please feel free to create editing conflicts.
+
+This should be fun!
+
+Git handles basic merge conflicts very well.
+Chapter 3.2 does a good job covering this topic.
+
