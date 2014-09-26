@@ -13,6 +13,7 @@ In order to push changes to this repo, either..
 
 Both options make for a good exercise.
 
+<<<<<<< HEAD
 NOTES:
 
 - I created a new branch, 'breakme'. This should be interesting!
@@ -35,3 +36,9 @@ __Sept 25:__
 __Sept 18:__
  
 - Please read: Chapter 1, and 2.1, 2.2, and 2.3.
+=======
+DEV: advancing after dev was merged into master.
+
+Demonstrating 'git tag -a'
+
+>>>>>>> dev
