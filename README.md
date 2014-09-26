@@ -13,8 +13,15 @@ In order to push changes to this repo, either..
 
 Both options make for a good exercise.
 
-<<<<<<< HEAD
-NOTES:
+
+NOTES
+-----
+
+2014.09.26
+
+- All branches have been merged into master.
+
+2014.09.19
 
 - I created a new branch, 'breakme'. This should be interesting!
   Even though there is now a 'breakme' branch.. feel free to experiment on any branch :)
@@ -23,8 +30,16 @@ NOTES:
   having a Git Bash shell (Windows) or a Terminal shell (Mac) open to use along with the
   examples throughout the book.
 
+
+
 Reading Assignments
 -------------------
+
+__Oct 01:__
+
+Webcast: Git for Grown-ups
+
+1pm-2pm
 
 
 __Sept 25:__
@@ -36,9 +51,4 @@ __Sept 25:__
 __Sept 18:__
  
 - Please read: Chapter 1, and 2.1, 2.2, and 2.3.
-=======
-DEV: advancing after dev was merged into master.
 
-Demonstrating 'git tag -a'
-
->>>>>>> dev
