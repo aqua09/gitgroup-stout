@@ -15,7 +15,7 @@ Not so much a question as an interesting discovery that makes total sense.
 
   So I deleted the 'dev' branch, git branch -d dev
   then, git checkout master.. which wanted me to commit my changes or stash them, git commit.
-  then created dev.
+  then I created dev, git branch dev.
 
 
 Questions
@@ -38,3 +38,13 @@ Q. How do you undo a merge?
 A. git revert -m 1 [sha_of_merge]
 
 
+Q. How do you view all tags?
+
+A. git tag
+
+
+Q. How do you view all branches?
+
+A. git branch
+
+ 
