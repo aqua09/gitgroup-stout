@@ -37,7 +37,27 @@ Our .gitignore file contains the following line:
 
 .config*
 
+To try this out do the following..
 
+copy config-* to .config-*
+
+Your working directory should now include..
+
+	.config-dev
+	.config-ruby
+	.config-default
+	.config-set
+
+	copy post-checkout to .git/hooks/
+	chmod 775 .git/hooks/post-checkout
+
+Give it a shot..
+
+	git pull origin ruby:ruby
+	git checkout ruby
+	git checkout master
+
+So.. now we have a dynamically generated .config file based on the branch we checkout.. sweet!
 
 
 2014.09.26
