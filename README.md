@@ -35,7 +35,7 @@ If we checkout any other branch our .config file will be overwritten with .confi
 
 Our .gitignore file contains the following line:
 
-.config*
+	.config*
 
 To try this out do the following..
 
