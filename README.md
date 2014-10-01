@@ -24,47 +24,19 @@ update their environment based on the current branch this is checked out.
 
 My example was developed on Linux but should run fine in a Terminal session on Mac OS.
 
-First, I created a bash script called .config-set:
+I created a bash script called .config-set that basically copies the appropriate .config-*
+file to .config based on our current branch.
 
-	#!/bin/bash
-	# set environment based on our branch 
-	BRANCH=`git branch | awk '{ print $2 }' | xargs`
+If we checkout the 'ruby' branch our .config file will be overwritten with .config-ruby.
 
-	# functions to setup our environment
-	set_dev()
-	{
-		printf %b "[+] on dev branch.. using dev environment\n"
-		if [ -f .config-dev ]; then
-			source .config-dev
-		else
-			printf "[-] ERROR - File does not exist: .config-dev\n"
-		fi
-	}
-	# set_ruby function
-	set_ruby()
-	{
-		printf %b "[+] on ruby branch.. using 'ruby' environment\n"
-		if [ -f .config-ruby ]; then
-			source .config-ruby
-		else
-		printf "[-] ERROR - File does not exist: .config-ruby\n"
-		fi
-	}
+If we checkout the 'dev' branch our .config file will be overwritten with .config-dev.
 
-	# call the appropriate function to set our environment
-	case "$BRANCH" in
-		'dev' )
-		printf %b "[+] calling set_dev()\n"
-		set_dev
-		;;
-		'ruby' )
-		printf %b "[+] calling set_ruby()\n"
-		set_ruby
-		;;
-	esac
+If we checkout any other branch our .config file will be overwritten with .config-default.
 
-	printf %b "[+] on branch    : $BRANCH\n"
-	printf %b "[+] using DBHOST : $DBHOST\n"
+Our .gitignore file contains the following line:
+
+.config*
+
 
 
 
