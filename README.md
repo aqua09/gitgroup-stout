@@ -41,6 +41,7 @@ Webcast: Git for Grown-ups
 
 1pm-2pm
 
+help make sense of branching, merging, conflicts, etc..
 
 __Sept 25:__
  
