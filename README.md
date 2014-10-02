@@ -17,6 +17,10 @@ Both options make for a good exercise.
 NOTES
 -----
 
+2014.10.02
+
+- moving config-* files to config/
+
 2014.10.01
 
 Updates:
