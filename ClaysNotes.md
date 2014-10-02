@@ -172,3 +172,19 @@ TODO: When is it necessary to stash.
 
 Scenario: cherry pick a commit from one branch and merge it with another
 ------------------------------------------------------------------------
+
+In this example my last commit to my local 'dev' branch was adding ClayNotes.md that contains the
+first scenario, "push while local branch 'dev' is behind remote branch 'dev'". I want to bring
+this single commit over the the 'master' branch. git cherry-pick requires a clean directory so
+I pull from origin/master then do the cherry-pick.
+
+	git co master
+	git pull origin master
+	git cherry-pick dev
+
+Push my change to origin/master
+
+	git push origin master
+
+This is a very simple example of the cherry-pick pick.
+
