@@ -1,1 +1,2 @@
 TEST=gitattributes
+CHECK=[1, 2, 3, 4]
