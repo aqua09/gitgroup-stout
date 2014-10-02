@@ -33,6 +33,7 @@ In this scenario the remote 'dev' branch has moved forward. We have not performe
 - I'm now ready to add my new file which will stage it and then I'll commit my change.
 
 	git add cnote.rb
+	
 	git commit
 
 	My default editor, vi, starts and I add my commit message. I also see the changes to be commited listed.
@@ -139,11 +140,13 @@ In this scenario the remote 'dev' branch has moved forward. We have not performe
 	I started working in my local 'dev' branch by adding a new file.
 
 		git co dev
+		
 		vi cnotes.rb
 
 	I added the new file and commited (this is all locally).
 
 		git add cnote.rb
+		
 		git commit
 
 	I tried to push my changes to the remote 'dev' branch, 'origin/dev'.
@@ -160,6 +163,7 @@ In this scenario the remote 'dev' branch has moved forward. We have not performe
 	I double checked my working directory and pushed to 'origin/dev'
 
 		git status
+		
 		git push origin dev
 
 
