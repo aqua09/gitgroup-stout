@@ -1,3 +1,5 @@
+Testing the display of code/command-line
 <code>
-testing display of code/command-line
+# this is a test
+puts "Hello, Git!"
 </code>
