@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# set environment based on our branch 
+BRANCH=`git branch | awk '{ print $2 }' | xargs`
+
+#echo $BRANCH | xargs
+printf %b "[+] BRANCH: $BRANCH\n"
+
+# functions to setup our environment
+#set_dev()
+#{
+#	printf %b "[+] on dev branch.. using dev environment\n"
+#	if [ -f .config-dev ]; then
+#		source .config-dev
+#	else
+#		printf "[-] ERROR - File does not exist: .config-dev\n"
+#	fi
+#}
+
+#set_ruby()
+#{
+#	printf %b "[+] on ruby branch.. using 'ruby' environment\n"
+#	if [ -f .config-ruby ]; then
+#		source .config-ruby
+#	else
+#		printf "[-] ERROR - File does not exist: .config-ruby\n"
+#	fi
+#}
+
+# call the appropriate function to set our environment
+case "$BRANCH" in
+	'dev' )
+		printf %b "[+] using dev branch .config\n"
+		#set_dev
+		cp .config-dev .config
+	;;
+	'ruby' )
+		printf %b "[+] using ruby branch .config\n"
+		#set_ruby
+		cp .config-ruby .config
+	;;
+	* )
+		printf %b "[+] using default .config\n"
+		cp .config-default .config
+	;;
+esac
+
+printf %b "[+] on branch : $BRANCH\n"
+printf %b "[+] updated .config\n"
+

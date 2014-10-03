@@ -17,7 +17,15 @@ Both options make for a good exercise.
 NOTES
 -----
 
+2014.10.02
+
+- moving config-* files to config/
+
 2014.10.01
+
+Updates:
+- Advancing remote dev branch for demonstration example
+- planning on moving the config-* files to a directory named 'config'
 
 Inspired by Chris :) I created the following to demonstrate how one can dynamically
 update their environment based on the current branch this is checked out.
