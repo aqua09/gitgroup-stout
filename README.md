@@ -17,6 +17,12 @@ Both options make for a good exercise.
 NOTES
 -----
 
+2014.10.04
+
+Setup the server, client branch rebase example from the book, pg. 72-73.
+
+Please feel free to perform the rebase.
+
 2014.10.01
 
 Inspired by Chris :) I created the following to demonstrate how one can dynamically
