@@ -186,5 +186,10 @@ Push my change to origin/master
 
 	git push origin master
 
-This is a very simple example of the cherry-pick pick.
+This is a very simple example of git cherry-pick
 
+
+Scenario: Go back to an earlier commit and create a new branch from it
+----------------------------------------------------------------------
+
+In this example I want to go back to one of the first few commits and create a "project" branch.
