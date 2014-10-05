@@ -176,3 +176,87 @@ TODO: When is it necessary to stash.
 
 Scenario: cherry pick a commit from one branch and merge it with another
 ------------------------------------------------------------------------
+
+In this example my last commit to my local 'dev' branch was adding ClayNotes.md that contains the
+first scenario, "push while local branch 'dev' is behind remote branch 'dev'". I want to bring
+this single commit over the the 'master' branch. git cherry-pick requires a clean directory so
+I pull from origin/master then do the cherry-pick.
+
+	git co master
+	git pull origin master
+	git cherry-pick dev
+
+Push my change to origin/master
+
+	git push origin master
+
+This is a very simple example of git cherry-pick
+
+
+Scenario: Go back to an earlier commit and create a new branch from it
+----------------------------------------------------------------------
+
+In this example I want to go back to one of the first few commits and create a "project" branch.
+
+	git log --oneline --graph --decorate  # I've made an alias for this command, lol, i.e., git lol
+
+	Result:
+
+		* | | 5cfd67b Update links.md
+			|/ /  
+		* | c437806 adding a directory.. can not be empty.. requires at least one file.
+		* | 0a01455 add an eclipse project file
+		* | 8f1dddf Update links.md
+		* | 8c73ca3 adding link to gitref.org.
+		* | 4242fec minor updates to make more markdown friendly.
+		* | 88db6ef git mv links.txt links.md did a rename.
+		* | be0884b adding new file that contains links to useful info.
+		|/  
+		* c89a946 initial remote commit.. first push.
+		* 1433a46 Initial commit
+
+	I decide that the second commit, c89a946, is a good place for me to start.
+
+		git co c89a946
+
+	Great.. I'm back where I want to be. Now to create a new branch for a new project.
+
+		git co -b project-network
+
+	Now I'm good to go in a new project branch. I make additions and am ready to commit and push to
+	the remote repo, origin. I need to let the remote know about the new branch before I can push.
+
+	Add and commit locally
+
+		git add network/
+
+		git commit -a
+
+	If I try to push now Git displays a useful message..
+
+		git push origin
+
+		Result:
+
+			fatal: The current branch project-network has no upstream branch.
+			To push the current branch and set the remote as upstream, use
+
+    	git push --set-upstream origin project-network
+
+  Ok, I really do need to inform origin of the new branch
+
+   	git push --set-upstream origin project-network
+
+    Result:
+
+    	Counting objects: 10, done.
+			Delta compression using up to 8 threads.
+			Compressing objects: 100% (3/3), done.
+			Writing objects: 100% (4/4), 438 bytes | 0 bytes/s, done.
+			Total 4 (delta 0), reused 0 (delta 0)
+			To git@github.com:clayball/gitgroup-stout.git
+			 * [new branch]      project-network -> project-network
+			Branch project-network set up to track remote branch project-network from origin.
+
+	Done.
+
