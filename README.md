@@ -17,6 +17,11 @@ Both options make for a good exercise.
 NOTES
 -----
 
+2014.10.06
+
+Testing pull/push without specifying origin branch.
+
+
 2014.10.04
 
 Setup the server, client branch rebase example from the book, pg. 72-73.
