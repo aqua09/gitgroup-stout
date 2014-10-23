@@ -14,6 +14,52 @@ In order to push changes to this repo, either..
 Both options make for a good exercise.
 
 
+Reading Assignments
+-------------------
+
+__Oct 30:__
+
+Please read Chapter 6
+
+__Oct 23:__
+
+Please read Chapter 5
+
+__Oct 16:__
+
+Please read Chapter 4
+
+__Oct 9:__
+
+Please finish Chapter 3
+
+Watch these videos:
+
+Remote Git Server and Merging: Git and Eclipse
+http://www.youtube.com/watch?v=KfeqnernMmE
+
+Git branching and merging (command-line)
+http://www.youtube.com/watch?v=RDGzF2M-zlo
+
+__Oct 01:__
+
+Webcast: Git for Grown-ups
+
+1pm-2pm
+
+help make sense of branching, merging, conflicts, etc..
+
+__Sept 25:__
+ 
+- Please read: Finish Chapter 2, 3.1, and 3.2
+ 
+- Try some commands on github
+
+__Sept 18:__
+ 
+- Please read: Chapter 1, and 2.1, 2.2, and 2.3.
+
+
 NOTES
 -----
 
@@ -83,27 +129,4 @@ Even though there is now a 'breakme' branch.. feel free to experiment on any bra
 GUI's can be nice and may integrate well into your workflow. However, I __highly recommend__
 having a Git Bash shell (Windows) or a Terminal shell (Mac) open to use along with the
 examples throughout the book.
-
-
-
-Reading Assignments
--------------------
-
-__Oct 01:__
-
-Webcast: Git for Grown-ups
-
-1pm-2pm
-
-help make sense of branching, merging, conflicts, etc..
-
-__Sept 25:__
- 
-- Please read: Finish Chapter 2, 3.1, and 3.2
- 
-- Try some commands on github
-
-__Sept 18:__
- 
-- Please read: Chapter 1, and 2.1, 2.2, and 2.3.
 
