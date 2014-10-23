@@ -15,3 +15,5 @@ Advancing.. dev on remote so that my local branch will be behind.
 
 Rebase example.. advancing.. past server/client branches.
  
+Making a change.. testing git format-patch and git send-mail.
+- can ~/.gitconfig for using git send-mail be configured to NOT store the imap password?
