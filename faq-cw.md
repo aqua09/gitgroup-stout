@@ -45,10 +45,10 @@ A. git tag
 
 Q. How do you view all branches?
 
-A. git branch
+A. git branch --all (--all will show the remote branches that you may need to fetch)
 
 
 Q. Does the IMAP password need to be stored in ~/.gitconfig in order to use git send-mail?
 
-A. I hope not
+A. No, on my Linux machine with postfix running I was not required to make changes to my ~/.gitconfig file.
 
