@@ -47,4 +47,8 @@ Q. How do you view all branches?
 
 A. git branch
 
- 
+
+Q. Does the IMAP password need to be stored in ~/.gitconfig in order to use git send-mail?
+
+A. I hope not
+
